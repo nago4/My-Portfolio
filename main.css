@@ -1,0 +1,98 @@
+body {
+    background-color: #212c2c;
+}
+
+#title {
+    color: #284132;
+    padding: 50px;
+}
+
+#section1 {
+    background-color: #98fb98;
+    padding: 50px;
+}
+
+#about {
+    background-color: #8ca0df;
+    padding: 50px;
+}
+
+#abouts {
+    color: #e4e6ed;
+    padding: 50px;
+}
+
+#career {
+    background-color: #8ca0df;
+    padding: 50px;
+}
+
+#careers {
+    color: #e4e6ed;
+    padding: 50px;
+}
+
+#works {
+    background-color: #8ca0df;
+    padding: 50px;
+}
+
+#workss {
+    color: #e4e6ed;
+    padding: 50px;
+}
+
+#skil {
+    background-color: #8ca0df;
+    padding: 50px;
+}
+
+#skils {
+    color: #e4e6ed;
+    padding: 50px;
+}
+
+#contact {
+    background-color: #8ca0df;
+    padding: 50px;
+}
+
+#contacts {
+    color: #e4e6ed;
+    padding: 50px;
+}
+
+#title {
+    background-color: #8cdf9a;
+    padding: 50px;
+}
+
+#section2 {
+    background-color: #c0c0c0;
+    padding: 50px;
+}
+
+.目次１{
+    color: #e4e6ed;
+    margin: auto;
+}
+.目次１ input{
+    color: #e4e6ed;
+    margin: 5px;
+}
+
+#mokuzi {
+position: fixed;
+top: 20px;
+right: 20px;
+background-color: #e4e6ed;
+border: 1px solid #ccc;
+padding: 10px;
+background-color: #fbfbfb;;
+}
+#mokuzi summary {
+cursor: pointer;
+}
+#mokuzi h4 {
+margin: 5px 0;
+}

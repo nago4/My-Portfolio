@@ -1,98 +1,68 @@
 body {
-    background-color: #212c2c;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
 }
 
-#title {
-    color: #284132;
-    padding: 50px;
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
 }
 
-#section1 {
-    background-color: #98fb98;
-    padding: 50px;
+nav {
+    background: #444;
+    color: #fff;
+    padding: 0.5rem 0;
+    text-align: center;
 }
 
-#about {
-    background-color: #8ca0df;
-    padding: 50px;
+nav ul {
+    list-style: none;
+    padding: 0;
 }
 
-#abouts {
-    color: #e4e6ed;
-    padding: 50px;
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
 }
 
-#career {
-    background-color: #8ca0df;
-    padding: 50px;
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
 }
 
-#careers {
-    color: #e4e6ed;
-    padding: 50px;
+main {
+    padding: 2rem;
 }
 
-#works {
-    background-color: #8ca0df;
-    padding: 50px;
+section {
+    margin-bottom: 2rem;
 }
 
-#workss {
-    color: #e4e6ed;
-    padding: 50px;
+.work-item {
+    margin-bottom: 1.5rem;
 }
 
-#skil {
-    background-color: #8ca0df;
-    padding: 50px;
+.work-item img {
+    max-width: 100%;
+    height: auto;
 }
 
-#skils {
-    color: #e4e6ed;
-    padding: 50px;
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
 
-#contact {
-    background-color: #8ca0df;
-    padding: 50px;
-}
-
-#contacts {
-    color: #e4e6ed;
-    padding: 50px;
-}
-
-#title {
-    background-color: #8cdf9a;
-    padding: 50px;
-}
-
-#section2 {
-    background-color: #c0c0c0;
-    padding: 50px;
-}
-
-.目次１{
-    color: #e4e6ed;
-    margin: auto;
-}
-.目次１ input{
-    color: #e4e6ed;
-    margin: 5px;
-}
-
-#mokuzi {
-position: fixed;
-top: 20px;
-right: 20px;
-background-color: #e4e6ed;
-border: 1px solid #ccc;
-padding: 10px;
-background-color: #fbfbfb;;
-}
-#mokuzi summary {
-cursor: pointer;
-}
-#mokuzi h4 {
-margin: 5px 0;
+.container {
+    width: 80%;
+    margin: 0 auto;
 }

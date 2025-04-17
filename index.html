@@ -10,34 +10,29 @@
     <script src="index.js"></script>
 </head>
 <body>
-    <header>
+    <header id="title">
         <div class="container">
-            <h1 id="title">My(mai's) PORTFOLIO</h1>
+            <h1 class="title">My(mai's) PORTFOLIO</h1>
             <h3>こんにちは、My(mai's) PORTFOLIOへようこそ</h3>
         </div>
     </header>
-        <ul>
-            <li><a href="#about" class = "move">ABOUT</a></li>
-            <li><a href="#career" class = "move">CAREER</a></li>
-            <li><a href="#works" class = "move">WORKS</a></li>
-            <li><a href="#skil" class = "move">SKIL</a></li>
-            <li><a href="#contact" class = "move">CONTACT</a></li>
-        </ul>
     <main>
-        <section id="about">
-            <h2>ABOUT</h2>
+        <!-- about -->
+        <span id="about"></span>
+            <h2 id="about">ABOUT</h2>
             <p>NAME: 名古田 真唯（ナゴダ マイ）</p>
             <p>PROFESSION: 高専生（大阪府立工業高等専門学校）（4年生）</p>
-        </section>
-        <section id="career">
-            <h2>CAREER</h2>
+        <!-- career -->
+        <span id="career"></span>
+            <h2 id="career">CAREER</h2>
             <p>2022/4: 大阪府立工業高等専門学校（大阪高専）入学</p>
             <p>2023/4: 知能情報コースに入る</p>
             <p>2023/12: 総合課題実験実習1で電車寝過ごし防止アプリを作成</p>
             <p>2025/3: 高専テクノゼミが主催する街づくりのイベントで梅田ダンジョン攻略システムを作成</p>
-        </section>
-        <section id="works">
-            <h2>WORKS</h2>
+        
+        <!-- works -->
+        <span id="works"></span>
+            <h2 id="works">WORKS</h2>
             <p>今までに作成したプログラムを掲載しています。写真をクリックすることでそのコードをGithub上でご覧いただけます。</p>
             <div class="work-item">
                 <p>①現在、電車での寝過ごしアプリをandroidstudioで作成しています。</p>
@@ -110,9 +105,9 @@
                 <input type="checkbox" name="checkbox">
               <div id="popup"><img src="https://assets.techacademy.jp/public/logo.png" alt="TechAcademy" /></div>
               </label>-->
-        </section>
-        <section id="skil">
-            <h2>SKIL</h2>
+              
+              <!-- skill -->
+            <h2 id="skil">SKIL</h2>
             <p>プログラミング言語・ツール</p>
             <p>Python…学校の授業で触れました。</p>
             <p>Java…電車の寝過ごしアプリを作成する際に使用しています。</p>
@@ -124,12 +119,14 @@
             <p>Vercel…カテゴリ別投稿アプリを作成する際に使用しています。</p>
             <p>Github…ポートフォリオやアプリのコードを載せています。</p>
             <p>VSCode…ポートフォリオやアプリのコードを作成する際に使用しています。</p>
-        </section>
-        <section id="contact">
-            <h2>CONTACT</h2>
+
+            <span id="contact"></span>
+            <div class="contact">
+            <h2 id="contact" >CONTACT</h2>
             <p>Gmailは以下の通りです。</p>
             <p>mait52785@gmail.com</p>
-        </section>
+            </div>
+
     </main>
     <footer>
         <div class="container">

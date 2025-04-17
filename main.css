@@ -25,12 +25,9 @@ ul li {
     margin: 0 1rem;
 }
 
-ul li a.move:hover{
-    display: inline;
-    margin: 0 1rem;
+.move:hover{
     color: #2ad379;
-	font-size: 18px;
-	font-weight: bold;
+
 }
 ul li a {
     color: #fff;

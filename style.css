@@ -30,23 +30,13 @@ header{
     margin-top: 20px;
 }
 
+/* 滑らかに移動 */
+* {
+    margin: 0;
+    scroll-behavior: smooth;
+  }
+
 /*menu*/
-.move {
-    margin: 1px 0;
-    color: #fff; 
-    background-color: #3a3a3a; 
-    text-decoration: none; /* 下線をなくす */
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%; /* 幅を親要素に合わせる */
-}
-.move:hover{
-    color: #000;
-    background-color: #c9c9c9; 
-    text-decoration: none;   
-}
 
 .subtitle{
     font-family: "Winky Rough", sans-serif;
@@ -62,10 +52,123 @@ header{
     background-color: #f4f1f1;
 }
 
-main {
-    padding: 2rem;
-}
 
+/* career */
+.cp_timeline03 {
+    position: relative;
+    margin: 3em auto;
+  }
+  .cp_timeline03:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 30px;
+    width: 4px;
+    height: 100%;
+    background-color: #006064;
+  }
+  .cp_timeline03 .timeline_group {
+    position: relative;
+    padding-top: 55px;
+  }
+  .cp_timeline03 .timeline_group:not(:first-of-type) {
+    margin-top: 4rem;
+  }
+  .cp_timeline03 .time_year {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0.5rem 1.5rem;
+    color: #fff;
+    background-color: #00838F;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .cp_timeline03 .timeline_item {
+    margin-bottom: 1em;
+    position: relative;
+    padding-left: 80px;
+    display: flex;
+    align-items: center;
+  }
+  .cp_timeline03 .timeline_item:not(:last-of-type) {
+    margin-bottom: 2em;
+  }
+  .cp_timeline03 .timeline_item:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    width: 100%;
+    height: 3px;
+    z-index: -1;
+    background-color: #006064;
+  }
+  .cp_timeline03 .time {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    min-width: 45px;
+    min-height: 45px;
+    padding: 0.5em 0.5em;
+    margin-top: -33px;
+    text-align: center;
+    color: #fff;
+    background-color: #26C6DA;
+    border-radius: 50%;
+  }
+  .cp_timeline03 .time_day {
+    font-size: 1em;
+    font-weight: 700;
+    display: block;
+  }
+  .cp_timeline03 .time_month {
+    font-size: 0.8em;
+    display: block;
+    text-transform: uppercase;
+  }
+  .cp_timeline03 .desc {
+    padding: 0.5em 1em;
+    width: 100%;
+    border-left: 3px solid #26C6DA;
+    border-radius: 2px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    font-size: 0.9em;
+  }
+  .cp_timeline03 .desc .flag {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 0.3em;
+  }
+  @media only screen and (max-width: 767px) {
+    .cp_timeline03:before {
+      left: 0;
+    }
+    .cp_timeline03 .timeline_group {
+      padding-top: 40px;
+    }
+    .cp_timeline03 .timeline_item {
+      padding-top: 60px;
+      padding-left: 20px;
+    }
+    .cp_timeline03 .timeline_item:before {
+      top: 90px;
+    }
+    .cp_timeline03 .time {
+      top: 40px;
+      border-radius: 0 20px 20px 0;
+      min-height: 1em;
+    }
+    .cp_timeline03 .time_day,
+    .cp_timeline03 .time_month {
+      display: inline-block;
+    }
+    .cp_timeline03 .desc {
+      font-size: 0.8em;
+    }
+  }
 
 
 .work-item {

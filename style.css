@@ -1,0 +1,109 @@
+/*body*/
+body{
+    background-color: #111111;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+    }
+/*header*/
+header{
+    background-color: #4d2c2c;
+    padding: 20px;
+    text-align: center;
+    background-color: #363232;
+}
+.title1{
+    font-family: "Winky Rough", sans-serif;
+    font-weight: 600;
+    font-size: 2em;
+    color: #f4f1f1;
+    background-color: #4d2c2c;
+    text-align: center;
+}
+.title2{
+    font-family: "Winky Rough", sans-serif;
+    font-weight: 600;
+    font-size: 1.2em;
+    color: #f4f1f1;
+    background-color: #593535;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*menu*/
+.move {
+    margin: 1px 0;
+    color: #fff; 
+    background-color: #3a3a3a; 
+    text-decoration: none; /* 下線をなくす */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* 幅を親要素に合わせる */
+}
+.move:hover{
+    color: #000;
+    background-color: #c9c9c9; 
+    text-decoration: none;   
+}
+
+.subtitle{
+    font-family: "Winky Rough", sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    color: #121111;
+}
+
+.waku{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    border: double 5px #4ec4d3;
+    background-color: #f4f1f1;
+}
+
+main {
+    padding: 2rem;
+}
+
+
+
+.work-item {
+    margin-bottom: 1.5rem;
+}
+
+.work-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.contact {
+    background-color: #8ca0df;
+    padding: 50px;
+}
+
+.title{
+    background-color: #8cdf9a;
+    padding: 50px;
+}
+  img{
+    width:100%;
+  }
+
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}

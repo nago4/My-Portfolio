@@ -1,37 +1,37 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="main.css">
-    <link rel="stylesheet" type="text/css" href="slick.css">
-    <link rel="stylesheet" type="text/css" href="slick-theme.css">
-    <script src="index.js"></script>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My(mai's) Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    </head>
 <body>
     <header id="title">
-        <div class="container">
-            <h1 class="title">My(mai's) PORTFOLIO</h1>
-            <h3>こんにちは、My(mai's) PORTFOLIOへようこそ</h3>
-        </div>
+        <h1 class="title1">My(mai's) Portfolio</h1>
+        <h3 class="title2"><span id="greeting"></span>My(mai's) PORTFOLIOへようこそ</h3>
     </header>
     <main>
         <!-- about -->
-        <span id="about"></span>
-            <h2 id="about">ABOUT</h2>
+         <section class="waku">
+            <h2>ABOUT</h2>
             <p>NAME: 名古田 真唯（ナゴダ マイ）</p>
             <p>PROFESSION: 高専生（大阪府立工業高等専門学校）（4年生）</p>
+        </section>
         <!-- career -->
-        <span id="career"></span>
+        <section class="waku">
             <h2 id="career">CAREER</h2>
             <p>2022/4: 大阪府立工業高等専門学校（大阪高専）入学</p>
             <p>2023/4: 知能情報コースに入る</p>
             <p>2023/12: 総合課題実験実習1で電車寝過ごし防止アプリを作成</p>
             <p>2025/3: 高専テクノゼミが主催する街づくりのイベントで梅田ダンジョン攻略システムを作成</p>
+        </section>
         
         <!-- works -->
-        <span id="works"></span>
+        <section class="waku">
             <h2 id="works">WORKS</h2>
             <p>今までに作成したプログラムを掲載しています。写真をクリックすることでそのコードをGithub上でご覧いただけます。</p>
             <div class="work-item">
@@ -94,20 +94,11 @@
                 <div class="your-class"><div><img src="./images/ブログアプリ.png" alt="カテゴリ別投稿アプリ"></div>
                 <div><img src="./images/ブログアプリ2.png" alt="カテゴリ別投稿アプリ"></div></div>
             </div>
+        </section>
 
-            <!--<div class="work-item">
-                <p>⑨梅田ダンジョン攻略システム</p>
-                <p>制作時期…2025年2月～3月</p>
-                <p>高専テクノゼミが主催する街づくりのイベントで梅田ダンジョン攻略システムを作成しました。</p>
-            </div>
-            <label>
-                <span>梅田ダンジョン攻略システムとは</span>
-                <input type="checkbox" name="checkbox">
-              <div id="popup"><img src="https://assets.techacademy.jp/public/logo.png" alt="TechAcademy" /></div>
-              </label>-->
-              
-              <!-- skill -->
-            <h2 id="skil">SKIL</h2>
+        <!-- skill -->
+        <section class="waku">
+            <h2>SKIL</h2>
             <p>プログラミング言語・ツール</p>
             <p>Python…学校の授業で触れました。</p>
             <p>Java…電車の寝過ごしアプリを作成する際に使用しています。</p>
@@ -119,13 +110,15 @@
             <p>Vercel…カテゴリ別投稿アプリを作成する際に使用しています。</p>
             <p>Github…ポートフォリオやアプリのコードを載せています。</p>
             <p>VSCode…ポートフォリオやアプリのコードを作成する際に使用しています。</p>
+        </section>
 
-            <span id="contact"></span>
+        <section class="waku">
             <div class="contact">
-            <h2 id="contact" >CONTACT</h2>
-            <p>Gmailは以下の通りです。</p>
-            <p>mait52785@gmail.com</p>
-            </div>
+                <h2 id="contact" >CONTACT</h2>
+                <p>Gmailは以下の通りです。</p>
+                <p>mait52785@gmail.com</p>
+                </div>
+        </section>
 
     </main>
     <footer>
@@ -133,14 +126,6 @@
             <a href="#title">トップへ戻る</a>
         </div>
     </footer>
-    <script type="text/javascript" src="slick/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="slick/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function(){
-            $('.your-class').slick({
-            });
-        });
-    </script>
 </body>
+<script src="time.js"></script>
 </html>

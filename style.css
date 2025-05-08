@@ -5,6 +5,14 @@ body{
     margin: 0 auto;
     margin-top: 20px;
     }
+
+#bar{
+      background-color: #0bd;
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 5px;
+  }
 /*header*/
 header{
     background-color: #4d2c2c;
